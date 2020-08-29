@@ -1,0 +1,32 @@
+.flex-container {
+    padding: 10px;
+    background-color: blueviolet;
+    height: 200px;
+}
+
+.flex-item {
+    height: 80px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    line-height: 5;
+    background-color: orangered;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.display {
+    display: flex; /* inline-flex, block */
+}
+
+.order {
+    order: 1;
+}
+
+.flex-grow {
+    flex-grow: 2;
+}
+
+.align-self {
+    align-self: flex-end;
+}

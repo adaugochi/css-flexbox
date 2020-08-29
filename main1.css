@@ -1,0 +1,49 @@
+.flex-container {
+    padding: 10px;
+    background-color: blueviolet;
+    height: 400px;
+}
+
+.flex-item {
+    height: 80px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    line-height: 5;
+    background-color: orangered;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.font-size-25 {
+    font-size: 25px;
+}
+
+.display {
+    display: flex; /* inline-flex, block */
+}
+
+.flex-direction {
+    flex-direction: column; /* row row-reverse column-reverse */
+}
+
+.flex-wrap {
+    flex-wrap: wrap; /* nowrap wrap-reverse */
+}
+
+.flex-flow {
+    flex-flow: row-reverse wrap;
+}
+
+.justify-content {
+    justify-content: space-between; /* space-around flex-end flex-start space-evenly */
+}
+
+.align-items {
+    align-items: baseline; /* flex-start flex-end center */
+}
+
+
+.align-content {
+    align-content: center; /* space-around flex-end flex-start space-evenly */
+}
