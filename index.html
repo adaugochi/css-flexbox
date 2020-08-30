@@ -6,22 +6,25 @@
     <title>CSS flexbox</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
+
 <body>
-    <div> <!-- Flex Container -->
-        <div>Item 1</div><!-- Flex Item -->
-        <div>Item 2</div><!-- Flex Item -->
-        <div>Item 3</div><!-- Flex Item -->
+
+
+    <div class="flex-container"> 
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
     </div>
 
     <br><br>
 
-    <div> <!-- Flex Container -->
-        <div>Item 1</div><!-- Flex Item -->
-        <div>Item 2</div><!-- Flex Item -->
-        <div><!-- Flex Item & also a Flex container-->
-            <div>Another Item 1</div><!-- Flex Item -->
-            <div>Another Item 2</div><!-- Flex Item -->
-            <div>Another Item 3</div><!-- Flex Item -->
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-container">
+            <div class="flex-item">Another Item 1</div>
+            <div class="flex-item">Another Item 2</div>
+            <div class="flex-item">Another Item 3</div>
         </div>
     </div>
 </body>
